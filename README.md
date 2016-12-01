@@ -6,13 +6,13 @@ There are currently 2 different states:
 
 ### Change color of all LEDs
 
-    color.py #FF0000
+    color.py FF0000
 
 This changes the color of all the LEDs to red (#FF0000 is red). Specify a HEX color as the first parameter, and it will simply change the color.
 
 ### Fade from one color to another
 
-    color.py #FF0000 #0000FF 1000
+    color.py FF0000 0000FF 1000
 
 This changes the color of all the LEDs from red (#FF0000) to blue (#0000FF) with a 1000ms fade. 
 
@@ -40,4 +40,4 @@ I recommend you also follow that guide, otherwise you might end up with a differ
     wget https://raw.githubusercontent.com/mortenmoulder/pigpio-led/master/color.py
     
 ### 4) Run color.py with any of the commands above
-    python color.py #FF0000
+    python color.py FF0000
